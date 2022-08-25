@@ -1,0 +1,12 @@
+{
+  "name": "sih-recommendation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python3 -m venv venv && source venv/bin/activate && pip install flask python-dotenv pandas flask_cors && python3 application.py"
+  },
+  "author": "",
+  "license": "ISC"
+}
