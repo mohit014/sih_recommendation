@@ -34,7 +34,3 @@ def make_rec():
             api_recommendations = ["Dance", "Stay-Fit-with-Exercises", "Exercise-Time", "Call-My-Parents", "Eat-Fruits",
                                    "Go-Climbing", "Practice-for-Baseball", "Watch-Your-Diet", "Appreciate-Others", "Count-Your-Steps"]
         return {"rec_habit": api_recommendations}
-
-
-if __name__ == "__main__":
-    app.run()
